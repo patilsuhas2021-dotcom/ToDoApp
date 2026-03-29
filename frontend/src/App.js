@@ -15,7 +15,8 @@ import Thanks from "./components/Thanks";
 import ipConfig from "./ipConfig.json";
 
 export const config = {
-  endpoint: `http://${ipConfig.workspaceIp}:8082/v1`,
+ // endpoint: `http://${ipConfig.workspaceIp}:8082/v1`,
+  endpoint: "https://todoapp-31mh.onrender.com/v1"
 };
 
 export default function App(props) {
